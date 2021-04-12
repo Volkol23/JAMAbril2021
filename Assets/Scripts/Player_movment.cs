@@ -90,8 +90,10 @@ public class Player_movment : MonoBehaviour
     //para estarse en la posicion 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-        
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Hit();
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {

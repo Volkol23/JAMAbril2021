@@ -20,17 +20,24 @@ public class ChangeMap : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            if (lightMap.activeInHierarchy)
-            {
-                //animator.SetBool("ChangeToDark", true);
-                lightMap.SetActive(false);
-                darkMap.SetActive(true);
-            } else if (darkMap.activeInHierarchy)
-            {
-                //animator.SetBool("ChangeToDark", false);
-                lightMap.SetActive(true);
-                darkMap.SetActive(false);
-            }
+            Switch_Light();
+        }
+    }
+
+
+    public void Switch_Light()
+    {
+        if (lightMap.activeInHierarchy)
+        {
+            //animator.SetBool("ChangeToDark", true);
+            lightMap.SetActive(false);
+            darkMap.SetActive(true);
+        }
+        else if (darkMap.activeInHierarchy)
+        {
+            //animator.SetBool("ChangeToDark", false);
+            lightMap.SetActive(true);
+            darkMap.SetActive(false);
         }
     }
 }

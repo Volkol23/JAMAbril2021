@@ -21,6 +21,8 @@ public class Orb_Script : MonoBehaviour
     {
         Debug.Log("+1 point");
         if (collision.gameObject.tag.Equals("Player")){
+            //gameObject.GetComponent<ChangeMap>().Switch_Light();
+
             if (gameObject.tag.Equals("Black"))
             {
                 Player_movment.Black_points++;
