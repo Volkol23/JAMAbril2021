@@ -7,8 +7,8 @@ public class Player_movment : MonoBehaviour
 {
 
 
-    public float Black_points;
-    public float White_points;
+    public static float Black_points;
+    public static float White_points;
     public float ground_distance;
 
     public float Speed;
@@ -36,7 +36,7 @@ public class Player_movment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
+        Debug.Log(Black_points);
         horizontal = Input.GetAxisRaw("Horizontal");
 
         //flip body

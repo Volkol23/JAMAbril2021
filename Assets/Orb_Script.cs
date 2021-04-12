@@ -5,8 +5,6 @@ using UnityEngine;
 public class Orb_Script : MonoBehaviour
 {
     public GameObject Player;
-    private bool black;
-    private bool white;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +23,14 @@ public class Orb_Script : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player")){
             if (gameObject.tag.Equals("Black"))
             {
-                Player.GetComponent<Player_movment>.Black_points + 1;
+                Player_movment.Black_points++;
+                Destroy(gameObject);
             }
             if (gameObject.tag.Equals("White"))
             {
-                GetComponent<Player_movment>().White_points++;
+                Player_movment.White_points++;
+                Destroy(gameObject);
+
             }
         }
     }
