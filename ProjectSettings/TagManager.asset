@@ -8,6 +8,7 @@ TagManager:
   - White
   - Enemy
   - Border
+  - Plataforma
   layers:
   - Default
   - TransparentFX

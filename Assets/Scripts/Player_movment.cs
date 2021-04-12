@@ -95,11 +95,12 @@ public class Player_movment : MonoBehaviour
         {
             Hit();
         }
+        if (collision.gameObject.tag == "Plataforma")
+        {
+            transform.parent = collision.transform;
+        }
     }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-       
-    }
+    
     public void Hit()
     {
         Health -= 1;
@@ -108,6 +109,13 @@ public class Player_movment : MonoBehaviour
             SceneManager.LoadScene("Prueba");
         //}
     }
-   
+    
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Plataforma")
+        {
+            transform.parent = null;
+        }
+    }
 }
 
