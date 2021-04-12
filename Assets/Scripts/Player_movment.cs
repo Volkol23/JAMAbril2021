@@ -97,8 +97,10 @@ public class Player_movment : MonoBehaviour
         }
         if (collision.gameObject.tag == "Plataforma")
         {
-            transform.parent = collision.transform;
+            gameObject.transform.parent = collision.transform;
         }
+        
+        
     }
     
     public void Hit()

@@ -40,4 +40,19 @@ public class ChangeMap : MonoBehaviour
             darkMap.SetActive(false);
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (lightMap.activeInHierarchy)
+        {
+            //animator.SetBool("ChangeToDark", true);
+            lightMap.SetActive(false);
+            darkMap.SetActive(true);
+        }
+        else if (darkMap.activeInHierarchy)
+        {
+            //animator.SetBool("ChangeToDark", false);
+            lightMap.SetActive(true);
+            darkMap.SetActive(false);
+        }
+    }
 }

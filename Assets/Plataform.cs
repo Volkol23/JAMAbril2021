@@ -29,15 +29,5 @@ public class Plataform : MonoBehaviour
             
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            transform.parent = transform;
-        }
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        collision.gameObject.GetComponent<Player_movment>().Speed= Speed_;
-    }
+    
 }
