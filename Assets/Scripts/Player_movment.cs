@@ -25,7 +25,8 @@ public class Player_movment : MonoBehaviour
 
 
     public int Health = 1;
-   
+    private int sceneIndex;
+
 
     void Start()
     {
@@ -36,7 +37,7 @@ public class Player_movment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Black_points);
+        
         horizontal = Input.GetAxisRaw("Horizontal");
 
         //flip body
@@ -99,6 +100,10 @@ public class Player_movment : MonoBehaviour
     public void Hit()
     {
         Health -= 1;
+        //if (Health <= 0)
+        //{
+            SceneManager.LoadScene("Prueba");
+        //}
     }
    
 }
