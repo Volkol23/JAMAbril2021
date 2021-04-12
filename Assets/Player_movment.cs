@@ -7,7 +7,8 @@ public class Player_movment : MonoBehaviour
 {
 
 
-
+    public float Black_points;
+    public float White_points;
     public float ground_distance;
 
     public float Speed;
