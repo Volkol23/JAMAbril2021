@@ -68,10 +68,11 @@ public class Player_movment : MonoBehaviour
         if (Health <= 0)
         {
 
+       
+        SceneManager.LoadScene("Prueba");
         }
 
-      
-     
+
 
     }
     private void Jump()
