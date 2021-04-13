@@ -34,6 +34,14 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public float GetBlackPoints()
+    {
+        return Black_points;
+    }
+    public float GetWhitePoints()
+    {
+        return White_points;
+    }
     public void UpdateWhitePoints()
     {
         White_points++;
