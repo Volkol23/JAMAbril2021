@@ -1,7 +1,136 @@
 fileFormatVersion: 2
 guid: 713cc0fd2e6746f44a0dd38f6bf10a2c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5550692849935402936
+    second: Level day_0
+  - first:
+      213: -1741322125097096464
+    second: Level day_1
+  - first:
+      213: -7170372234626470198
+    second: Level day_2
+  - first:
+      213: -6037909074859975463
+    second: Level day_3
+  - first:
+      213: 6118128903107282611
+    second: Level day_4
+  - first:
+      213: -4631276662881652518
+    second: Level day_5
+  - first:
+      213: 7121580397635343780
+    second: Level day_6
+  - first:
+      213: 4708250002183899844
+    second: Level day_7
+  - first:
+      213: -2739551382793424567
+    second: Level day_8
+  - first:
+      213: -8761846982673681843
+    second: Level day_9
+  - first:
+      213: 9173240599610684815
+    second: Level day_10
+  - first:
+      213: 8484137509578779877
+    second: Level day_11
+  - first:
+      213: 6595206908247424823
+    second: Level day_12
+  - first:
+      213: 1589392465245404379
+    second: Level day_13
+  - first:
+      213: -4101091169388681556
+    second: Level day_14
+  - first:
+      213: -7219493541176013717
+    second: Level day_15
+  - first:
+      213: -6055643620089352281
+    second: Level day_16
+  - first:
+      213: 3390692552323667733
+    second: Level day_17
+  - first:
+      213: -3675544397415431032
+    second: Level day_18
+  - first:
+      213: -8108015019870594428
+    second: Level day_19
+  - first:
+      213: 2795066117248489101
+    second: Level day_20
+  - first:
+      213: -6222784718045735125
+    second: Level day_21
+  - first:
+      213: 8764609560024000875
+    second: Level day_22
+  - first:
+      213: -7878394938826670173
+    second: Level day_23
+  - first:
+      213: -4639552501791515781
+    second: Level day_24
+  - first:
+      213: -6366169955103789976
+    second: Level day_25
+  - first:
+      213: 3152223345681270080
+    second: Level day_26
+  - first:
+      213: 4875650578529795649
+    second: Level day_27
+  - first:
+      213: -3678030482465586474
+    second: Level day_28
+  - first:
+      213: -4093529496664945654
+    second: Level day_29
+  - first:
+      213: -6627950260914220875
+    second: Level day_30
+  - first:
+      213: 2458651745106143663
+    second: Level day_31
+  - first:
+      213: 1148331273985618709
+    second: Level day_32
+  - first:
+      213: 8459289024410216600
+    second: Level day_33
+  - first:
+      213: 7100323589565795299
+    second: Level day_34
+  - first:
+      213: 2780674635942108273
+    second: Level day_35
+  - first:
+      213: 5263974624923444171
+    second: Level day_36
+  - first:
+      213: -5721291718448778736
+    second: Level day_37
+  - first:
+      213: 1244185635578818369
+    second: Level day_38
+  - first:
+      213: 7253012921461661119
+    second: Level day_39
+  - first:
+      213: 8180652031787268445
+    second: Level day_40
+  - first:
+      213: -495815116601406495
+    second: Level day_41
+  - first:
+      213: 3187979262030987461
+    second: Level day_42
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +160,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +169,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -64,7 +193,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,7 +214,910 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Level day_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 841
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848bc46034af7f2b0800000000000000
+      internalID: -5550692849935402936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa2f0ec0c495d7e0800000000000000
+      internalID: -1741322125097096464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 845
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acee3cf5178bd7c90800000000000000
+      internalID: -7170372234626470198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_3
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 854
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc1dd6cfa9053ca0800000000000000
+      internalID: -6037909074859975463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 854
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b682c772d5f7e450800000000000000
+      internalID: 6118128903107282611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 841
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0f164a9666abfb0800000000000000
+      internalID: -4631276662881652518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_6
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a59070d3afe4d260800000000000000
+      internalID: 7121580397635343780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_7
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca47ed7e60175140800000000000000
+      internalID: 4708250002183899844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 758
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941faa838882bf9d0800000000000000
+      internalID: -2739551382793424567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 760
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42386d679aa76680800000000000000
+      internalID: -8761846982673681843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_10
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 758
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f857cf239b5ed4f70800000000000000
+      internalID: 9173240599610684815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_11
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 757
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eca2043d16bdb570800000000000000
+      internalID: 8484137509578779877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 679
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f3a4a7db1e68b50800000000000000
+      internalID: 6595206908247424823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 675
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc72a3b608ae0610800000000000000
+      internalID: 1589392465245404379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 677
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6a8195f4ff517c0800000000000000
+      internalID: -4101091169388681556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_15
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c0af3ffd43fcb90800000000000000
+      internalID: -7219493541176013717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 661
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afa632363806fba0800000000000000
+      internalID: -6055643620089352281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 654
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51790d369e82e0f20800000000000000
+      internalID: 3390692552323667733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_18
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 654
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88440eb28d7ddfcc0800000000000000
+      internalID: -3675544397415431032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_19
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 653
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ad41b2c4b8a7f80800000000000000
+      internalID: -8108015019870594428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86935223d11ac620800000000000000
+      internalID: 2795066117248489101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_21
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 506
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b279727c44a34a9a0800000000000000
+      internalID: -6222784718045735125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_22
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 506
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69293c35f522a970800000000000000
+      internalID: 8764609560024000875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_23
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 506
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af300f6b815aa290800000000000000
+      internalID: -7878394938826670173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_24
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 453
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b11fdb49ffc9fb0800000000000000
+      internalID: -4639552501791515781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_25
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 453
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c264eb722d6a7a0800000000000000
+      internalID: -6366169955103789976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_26
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 453
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04586048e62febb20800000000000000
+      internalID: 3152223345681270080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 449
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e323e6e5ac9a340800000000000000
+      internalID: 4875650578529795649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_28
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2849363c205fcc0800000000000000
+      internalID: -3678030482465586474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_29
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cc3b97c9cd037c0800000000000000
+      internalID: -4093529496664945654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_30
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 403
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b01045aa5ac404a0800000000000000
+      internalID: -6627950260914220875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 364
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa922755cb2ee1220800000000000000
+      internalID: 2458651745106143663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_32
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 302
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5137266a531bfef00800000000000000
+      internalID: 1148331273985618709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_33
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 302
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898e4586c8e656570800000000000000
+      internalID: 8459289024410216600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_34
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 302
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb45628faa698260800000000000000
+      internalID: 7100323589565795299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_35
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c944749d0f69620800000000000000
+      internalID: 2780674635942108273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 198
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc36b3918056d0940800000000000000
+      internalID: 5263974624923444171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_37
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 199
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012f979ae73e990b0800000000000000
+      internalID: -5721291718448778736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_38
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 195
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fa15b5e3c344110800000000000000
+      internalID: 1244185635578818369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_39
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 188
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd5a0fe2d0e7a460800000000000000
+      internalID: 7253012921461661119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_40
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 187
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59f1c11ea3878170800000000000000
+      internalID: 8180652031787268445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_41
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 89
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb44b447c28e19f0800000000000000
+      internalID: -495815116601406495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level day_42
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 90
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c04ba88f3afd3c20800000000000000
+      internalID: 3187979262030987461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
