@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48552c81bc8f0d54bb16a929bab42d78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground_distance: 0.4
+  ground_distance: 0.6
   Speed: 2
   JumpForce: 250
   horizontal: 0
@@ -139,8 +139,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.0036935806}
-  m_Size: {x: 0.64, y: 0.64}
+  m_Offset: {x: -0.03647399, y: -0.13004369}
+  m_Size: {x: 0.86492205, y: 0.9013958}
   m_Direction: 0
 --- !u!95 &9165946398311654238
 Animator:
