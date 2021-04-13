@@ -13,7 +13,8 @@ public class ChangeMap : MonoBehaviour
     void Start()
     {
         //animator = GetComponent<Animator>();
-        
+        lightMap = GameObject.FindGameObjectWithTag("Light");
+        darkMap = GameObject.FindGameObjectWithTag("Dark");
     }
 
     // Update is called once per frame
