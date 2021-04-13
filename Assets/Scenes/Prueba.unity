@@ -495,26 +495,6 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!1 &83889336 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5965067629233095048, guid: 772d13ae37bbdd04795766c3cc4b5cfe,
-    type: 3}
-  m_PrefabInstance: {fileID: 5965067630034862249}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &83889341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 83889336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 847d4953d0e53654bbad736cb299a5b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightMap: {fileID: 990525795}
-  darkMap: {fileID: 1039874875}
 --- !u!1 &117716479
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,23 +607,9 @@ CompositeCollider2D:
       - X: 64000000
         Y: 6400000
     - - X: 179199984
-        Y: -25600100
-      - X: 179200000
-        Y: -25600100
-      - X: 179200000
-        Y: -31999998
-      - X: 198399984
-        Y: -31999998
-      - X: 198399984
-        Y: -25600000
-      - X: 179200084
-        Y: -25600000
-      - X: 179200084
-        Y: -19199959
-      - X: 179200025
-        Y: -19199900
+        Y: -19200000
       - X: 172799984
-        Y: -19199900
+        Y: -19200000
       - X: 172799984
         Y: -6400000
       - X: 166400000
@@ -652,22 +618,38 @@ CompositeCollider2D:
         Y: -31999998
       - X: 179199984
         Y: -31999998
-    - - X: 339200068
-        Y: -32000039
-      - X: 339200068
-        Y: -25599959
-      - X: 339200009
-        Y: -25599900
-      - X: 294399959
-        Y: -25599900
-      - X: 294399900
-        Y: -25599959
-      - X: 294399900
-        Y: -32000039
-      - X: 294399959
-        Y: -32000098
-      - X: 339200009
-        Y: -32000098
+    - - X: 198399984
+        Y: -25600000
+      - X: 179200000
+        Y: -25600000
+      - X: 179200000
+        Y: -31999998
+      - X: 198399984
+        Y: -31999998
+    - - X: 300799968
+        Y: -25600000
+      - X: 294400000
+        Y: -25600000
+      - X: 294400000
+        Y: -31999998
+      - X: 300799968
+        Y: -31999998
+    - - X: 319999968
+        Y: -25600000
+      - X: 300800000
+        Y: -25600000
+      - X: 300800000
+        Y: -31999998
+      - X: 319999968
+        Y: -31999998
+    - - X: 339199968
+        Y: -25600000
+      - X: 320000000
+        Y: -25600000
+      - X: 320000000
+        Y: -31999998
+      - X: 339199968
+        Y: -31999998
   m_CompositePaths:
     m_Paths:
     - - {x: 6.399971, y: 0.64}
@@ -680,16 +662,16 @@ CompositeCollider2D:
       - {x: -0.6399707, y: 0.64}
     - - {x: 19.83997, y: -3.1999998}
       - {x: 19.83997, y: -2.56}
-      - {x: 17.920008, y: -2.5599706}
-      - {x: 17.919973, y: -1.9199901}
-      - {x: 17.279999, y: -1.9199606}
+      - {x: 17.919998, y: -2.5599706}
+      - {x: 17.91997, y: -1.9200001}
+      - {x: 17.279999, y: -1.9199706}
       - {x: 17.27997, y: -0.64}
       - {x: 16.64, y: -0.6400293}
       - {x: 16.64003, y: -3.1999998}
-    - - {x: 33.91997, y: -3.2000098}
-      - {x: 33.91997, y: -2.55999}
-      - {x: 29.439991, y: -2.5600252}
-      - {x: 29.440025, y: -3.2000098}
+    - - {x: 33.919968, y: -3.1999998}
+      - {x: 33.919968, y: -2.56}
+      - {x: 29.44, y: -2.5600293}
+      - {x: 29.44003, y: -3.1999998}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &135253611
@@ -5381,20 +5363,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 990415925893429719, guid: 033b92e431628e44bac7db3258cfc25b,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.09939742
+      objectReference: {fileID: 0}
+    - target: {fileID: 990415925893429719, guid: 033b92e431628e44bac7db3258cfc25b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.97504723
+      objectReference: {fileID: 0}
+    - target: {fileID: 990415925893429719, guid: 033b92e431628e44bac7db3258cfc25b,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.012886405
+      objectReference: {fileID: 0}
+    - target: {fileID: 990415925893429719, guid: 033b92e431628e44bac7db3258cfc25b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.84618235
+      objectReference: {fileID: 0}
     - target: {fileID: 7859748960237598074, guid: 033b92e431628e44bac7db3258cfc25b,
         type: 3}
       propertyPath: Speed
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7859748960237598074, guid: 033b92e431628e44bac7db3258cfc25b,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1329474338931018131}
+    - target: {fileID: 7859748960237598074, guid: 033b92e431628e44bac7db3258cfc25b,
+        type: 3}
+      propertyPath: ground_distance
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8583005370877631274, guid: 033b92e431628e44bac7db3258cfc25b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.22
+      value: 7.47
       objectReference: {fileID: 0}
     - target: {fileID: 8583005370877631274, guid: 033b92e431628e44bac7db3258cfc25b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.59
+      value: 6.63
       objectReference: {fileID: 0}
     - target: {fileID: 8583005370877631274, guid: 033b92e431628e44bac7db3258cfc25b,
         type: 3}
@@ -5446,6 +5458,12 @@ PrefabInstance:
 --- !u!1 &1329474338931018130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 320237225444281, guid: 033b92e431628e44bac7db3258cfc25b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1329158508409129515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1329474338931018131 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9165946398311654238, guid: 033b92e431628e44bac7db3258cfc25b,
     type: 3}
   m_PrefabInstance: {fileID: 1329158508409129515}
   m_PrefabAsset: {fileID: 0}

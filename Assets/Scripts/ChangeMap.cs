@@ -40,7 +40,7 @@ public class ChangeMap : MonoBehaviour
             darkMap.SetActive(false);
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+   /* private void OnTriggerEnter2D(Collider2D collision)
     {
         if (lightMap.activeInHierarchy)
         {
@@ -54,5 +54,5 @@ public class ChangeMap : MonoBehaviour
             lightMap.SetActive(true);
             darkMap.SetActive(false);
         }
-    }
+    }*/
 }

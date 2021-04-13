@@ -14,14 +14,14 @@ public class Player_movment : MonoBehaviour
     Rigidbody2D Rigidbody2D;
     public float horizontal;
 
-    
 
 
+    public Animator animator;
     public bool in_ground;
 
 
     public int Health = 1;
-    private int sceneIndex;
+   
 
 
     void Start()
@@ -69,7 +69,9 @@ public class Player_movment : MonoBehaviour
         }
 
 
-
+       
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+        animator.SetBool("Grounded", in_ground);
     }
     private void Jump()
     {
