@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: 923ecbb9df438224e8413bddf6c91e65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 846010472778899471
+    second: Title
+  - first:
+      213: 547216540781403935
+    second: Botones_1
+  - first:
+      213: -7907714960023122294
+    second: Resume_Not_Pressed
+  - first:
+      213: 2194205617919688114
+    second: Botones_3
+  - first:
+      213: 3866776094012965585
+    second: Resume_Hover
+  - first:
+      213: 9016308295934094931
+    second: Botones_5
+  - first:
+      213: 7301679003791084372
+    second: Restart_NotPressed
+  - first:
+      213: -3221787626081240748
+    second: Botones_7
+  - first:
+      213: -2944057905185219022
+    second: Restart_Hover
+  - first:
+      213: 9151408025736124242
+    second: Botones_9
+  - first:
+      213: 2628266660422124692
+    second: Menu_NotPressed
+  - first:
+      213: -5103995100000811410
+    second: Botones_11
+  - first:
+      213: -7906282856345735761
+    second: Menu_Hover
+  - first:
+      213: -3233077987633186347
+    second: Botones_13
+  - first:
+      213: 145221563761522382
+    second: Salir_NotPressed
+  - first:
+      213: 450208034708987900
+    second: Botones_15
+  - first:
+      213: -602283821619953447
+    second: Salir_Hover
+  - first:
+      213: 6453210398658690557
+    second: Botones_17
+  - first:
+      213: -6361220910365627870
+    second: Botones_18
+  - first:
+      213: 8457651401061830260
+    second: Botones_19
+  - first:
+      213: 5978645956075816863
+    second: Botones_20
+  - first:
+      213: 482234938246298240
+    second: Botones_21
+  - first:
+      213: -2030697523165154644
+    second: Botones_22
+  - first:
+      213: 5629691722415292674
+    second: Botones_23
+  - first:
+      213: -238594331869220503
+    second: Botones_24
+  - first:
+      213: -2626385589335762350
+    second: Botones_25
+  - first:
+      213: 7903871584327464964
+    second: Botones_26
+  - first:
+      213: 8198030595043645048
+    second: Botones_27
+  - first:
+      213: 8806457495810903940
+    second: Botones_28
+  - first:
+      213: 532925809175647071
+    second: Botones_29
+  - first:
+      213: -1980467962072095337
+    second: Botones_30
+  - first:
+      213: -5955119498513800647
+    second: Botones_31
+  - first:
+      213: -4758446229376994350
+    second: Botones_32
+  - first:
+      213: -1177222586990068012
+    second: Botones_33
+  - first:
+      213: 1914480803941591423
+    second: Botones_34
+  - first:
+      213: -4764012759290748981
+    second: Botones_35
+  - first:
+      213: 3290415819457482903
+    second: Botones_36
+  - first:
+      213: 1940692153189444433
+    second: Botones_37
+  - first:
+      213: -7678948182819100293
+    second: Botones_38
+  - first:
+      213: -2550412111963846056
+    second: Botones_39
+  - first:
+      213: -6289042314618671576
+    second: Botones_40
+  - first:
+      213: -3171546656270856553
+    second: Botones_41
+  - first:
+      213: 3332652092934885406
+    second: Botones_42
+  - first:
+      213: -4008537198937108914
+    second: Botones_43
+  - first:
+      213: -627823874162132910
+    second: Botones_44
+  - first:
+      213: -7269385329767838947
+    second: Botones_45
+  - first:
+      213: -6822479701333191444
+    second: Botones_46
+  - first:
+      213: 1573641421461339156
+    second: Botones_47
+  - first:
+      213: -3598519398372644258
+    second: Botones_48
+  - first:
+      213: -5772699443662317843
+    second: Botones_49
+  - first:
+      213: 1706495116088097661
+    second: Botones_50
+  - first:
+      213: -3654363782144193098
+    second: Botones_51
+  - first:
+      213: -9055273130169736880
+    second: Botones_52
+  - first:
+      213: -3738110594662606625
+    second: Botones_53
+  - first:
+      213: -1281077589824920326
+    second: Botones_54
+  - first:
+      213: 7742598528363821985
+    second: Botones_55
+  - first:
+      213: 4147502419643945642
+    second: Botones_56
+  - first:
+      213: -6065186912080125825
+    second: Botones_57
+  - first:
+      213: 6370763446743821444
+    second: Botones_58
+  - first:
+      213: -9112058070238980308
+    second: Botones_59
+  - first:
+      213: 6159884744816522342
+    second: Botones_60
+  - first:
+      213: -3042777596371904355
+    second: Botones_61
+  - first:
+      213: -5495808205145867788
+    second: Botones_62
+  - first:
+      213: -5289349350816888877
+    second: Botones_63
+  - first:
+      213: -5153909749717051892
+    second: Botones_64
+  - first:
+      213: -7996747745472795284
+    second: Botones_65
+  - first:
+      213: 8259488534143891931
+    second: Botones_66
+  - first:
+      213: -5397353803847044405
+    second: Botones_67
+  - first:
+      213: -5548211882824329753
+    second: Botones_68
+  - first:
+      213: -1008134139307988209
+    second: Botones_69
+  - first:
+      213: 6438587779248007475
+    second: Botones_70
+  - first:
+      213: 754196136570473848
+    second: Botones_71
+  - first:
+      213: -6102570210060510264
+    second: Botones_72
+  - first:
+      213: -6637940519596854754
+    second: Botones_73
+  - first:
+      213: -2024285459383062003
+    second: Botones_74
+  - first:
+      213: -5206073796992884516
+    second: Botones_75
+  - first:
+      213: 1768090799135284001
+    second: Botones_76
+  - first:
+      213: -4164648690497080718
+    second: Botones_77
+  - first:
+      213: 9030696847063093498
+    second: Botones_78
+  - first:
+      213: -2145363560813105016
+    second: Botones_79
+  - first:
+      213: 2767885179303464326
+    second: Botones_80
+  - first:
+      213: 3031284399605790300
+    second: Botones_81
+  - first:
+      213: 3879299064979936900
+    second: Botones_82
+  - first:
+      213: -3550633911975673484
+    second: Botones_83
+  - first:
+      213: 5558575752976691978
+    second: Botones_84
+  - first:
+      213: -4336354025334172438
+    second: Botones_85
+  - first:
+      213: -1161415801932323618
+    second: Botones_86
+  - first:
+      213: -9163524202787208199
+    second: Botones_87
+  - first:
+      213: -2231057416459736404
+    second: Botones_88
+  - first:
+      213: 7128967994529739298
+    second: Botones_89
+  - first:
+      213: 7478761738637514881
+    second: Botones_90
+  - first:
+      213: 8149987246762283668
+    second: Botones_91
+  - first:
+      213: -3754120484581899722
+    second: Botones_92
+  - first:
+      213: 3020496920584904010
+    second: Botones_93
+  - first:
+      213: 7122640246336788616
+    second: Botones_94
+  - first:
+      213: -1437638692707708201
+    second: Botones_95
+  - first:
+      213: -475761614681250152
+    second: Botones_96
+  - first:
+      213: 4703652098521702136
+    second: Botones_97
+  - first:
+      213: 6873452609343372672
+    second: Botones_98
+  - first:
+      213: -4161463923775191659
+    second: Botones_99
+  - first:
+      213: -5000405084240051986
+    second: Botones_100
+  - first:
+      213: 7115359890789445657
+    second: Botones_101
+  - first:
+      213: -6942387524166311749
+    second: Botones_102
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Title
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 851
+        width: 1114
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f002f3aea02adbb00800000000000000
+      internalID: 846010472778899471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resume_Not_Pressed
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 708
+        width: 401
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e87c60427224290800000000000000
+      internalID: -7907714960023122294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resume_Hover
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 705
+        width: 456
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43040496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d28d95de5c89a530800000000000000
+      internalID: 3866776094012965585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Restart_NotPressed
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 549
+        width: 344
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b45e43e56c45560800000000000000
+      internalID: 7301679003791084372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Restart_Hover
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 541
+        width: 431
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e114bfeea9427d0800000000000000
+      internalID: -2944057905185219022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_NotPressed
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 365
+        width: 543
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494867d3a9a797420800000000000000
+      internalID: 2628266660422124692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_Hover
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 354
+        width: 668
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad60c5a1ad374290800000000000000
+      internalID: -7906282856345735761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salir_NotPressed
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 177
+        width: 191
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec67bb92e3ee30200800000000000000
+      internalID: 145221563761522382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salir_Hover
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 169
+        width: 222
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0c0662e0244a7f0800000000000000
+      internalID: -602283821619953447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
