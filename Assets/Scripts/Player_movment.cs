@@ -23,11 +23,11 @@ public class Player_movment : MonoBehaviour
     public int Health = 1;
    
 
+    public bool isDead;
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
-
     }
 
     // Update is called once per frame
@@ -63,9 +63,8 @@ public class Player_movment : MonoBehaviour
 
         if (Health <= 0)
         {
-
-       
-        SceneManager.LoadScene("Prueba");
+            GameManager.instance.RssetPoints();
+            SceneManager.LoadScene("Prueba");
         }
 
 
@@ -106,7 +105,7 @@ public class Player_movment : MonoBehaviour
         Health -= 1;
         //if (Health <= 0)
         //{
-            SceneManager.LoadScene("Prueba");
+            //SceneManager.LoadScene("Prueba");
         //}
     }
     

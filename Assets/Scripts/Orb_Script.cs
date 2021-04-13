@@ -26,11 +26,13 @@ public class Orb_Script : MonoBehaviour
             if (gameObject.tag.Equals("Black"))
             {
                 GameManager.instance.UpdateBlackPoints();
+                //UIManager.instance.UpdateBlackText();
                 Destroy(gameObject);
             }
             if (gameObject.tag.Equals("White"))
             {
                 GameManager.instance.UpdateWhitePoints();
+                //UIManager.instance.UpdateWhiteText();
                 Destroy(gameObject);
 
             }

@@ -34,6 +34,11 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void RssetPoints()
+    {
+        Black_points = 0;
+        White_points = 0;
+    }
     public float GetBlackPoints()
     {
         return Black_points;
