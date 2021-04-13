@@ -10,6 +10,7 @@ public class ChangeMap : MonoBehaviour
     [SerializeField] GameObject emptyPos;
 
     public int mapLevel; // 0 DARK 1 LIGHT
+    private int Level;
     private Vector3 lightCurrentPos;
     private Vector3 DarkCurrentPos;
     // Start is called before the first frame update
@@ -20,7 +21,8 @@ public class ChangeMap : MonoBehaviour
         darkMap = GameObject.FindGameObjectWithTag("Dark");
         lightCurrentPos = lightMap.transform.position;
         DarkCurrentPos = darkMap.transform.position;
-        mapLevel = 0;
+        mapLevel = -1;
+        Level = 0;
         SwitchDark();
         //SwitchLight(lightSwitch);
     }
@@ -36,29 +38,37 @@ public class ChangeMap : MonoBehaviour
         {
             darkMap = GameObject.FindGameObjectWithTag("Dark");
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && mapLevel == -1)
         {
-            if (mapLevel == 0) {
+            mapLevel = 2;
+            if (mapLevel == 2 && Level == 0) {
                 SwitchLight();
-                mapLevel = 1;
-            } else if (mapLevel == 1)
+                Level = 1;
+            } else if (mapLevel == 2 && Level == 1)
             {
                 SwitchDark();
-                mapLevel = 0;
+                Level = 0;
             }
         }
     }
 
     public void SwitchDark()
     {
-            MakeInvisible(lightMap);
-            MakeVisible(darkMap);
+        MakeInvisible(lightMap);
+        MakeVisible(darkMap);
+        mapLevel = -1;
     }
     public void SwitchLight()
     {
-            MakeInvisible(darkMap);
-            MakeVisible(lightMap);
+        MakeInvisible(darkMap);
+        MakeVisible(lightMap);
+        mapLevel = -1;
     }
+    public int GetMapLevel()
+    {
+        return mapLevel;
+    }
+
    /* private void OnTriggerEnter2D(Collider2D collision)
     {
         if (lightMap.activeInHierarchy)

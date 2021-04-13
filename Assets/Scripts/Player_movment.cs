@@ -96,7 +96,8 @@ public class Player_movment : MonoBehaviour
         }
         if (collision.gameObject.tag == "Plataforma")
         {
-            gameObject.transform.parent = collision.transform;
+            if(GameManager.instance.GetComponent<ChangeMap>().GetMapLevel() < 0)
+                gameObject.transform.parent = collision.transform;
         }
         
         
