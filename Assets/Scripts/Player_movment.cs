@@ -64,7 +64,7 @@ public class Player_movment : MonoBehaviour
         if (Health <= 0)
         {
             GameManager.instance.RssetPoints();
-            //SceneManager.LoadScene("Prueba");
+            SceneManager.LoadScene("Prueba");
         }
 
 
@@ -90,7 +90,8 @@ public class Player_movment : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            Hit();
+            if (!in_ground) Destroy(collision.gameObject);
+            else Hit();
         }
         if (collision.gameObject.tag == "Plataforma")
         {
@@ -116,5 +117,6 @@ public class Player_movment : MonoBehaviour
             transform.parent = null;
         }
     }
+    
 }
 

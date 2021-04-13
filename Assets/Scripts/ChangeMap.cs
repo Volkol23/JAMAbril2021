@@ -4,20 +4,29 @@ using UnityEngine;
 
 public class ChangeMap : MonoBehaviour
 {
-    /*[SerializeField]*/public GameObject lightMap;
+    [SerializeField] GameObject lightMap;
     //[SerializeField] Animator animator;
-    public GameObject darkMap;
+    [SerializeField] GameObject darkMap;
 
 
     // Start is called before the first frame update
     void Start()
     {
         //animator = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(lightMap == null)
+        {
+            lightMap = GameObject.FindGameObjectWithTag("Light");
+        }
+        if (darkMap == null)
+        {
+            darkMap = GameObject.FindGameObjectWithTag("Dark");
+        }
         if (Input.GetKeyDown(KeyCode.E))
         {
             Switch_Light();
