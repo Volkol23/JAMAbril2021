@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Border
   - Plataforma
+  - Canvas_Death
   layers:
   - Default
   - TransparentFX

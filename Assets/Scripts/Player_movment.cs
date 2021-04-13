@@ -64,7 +64,7 @@ public class Player_movment : MonoBehaviour
         if (Health <= 0)
         {
             GameManager.instance.RssetPoints();
-            SceneManager.LoadScene("Prueba");
+            //SceneManager.LoadScene("Prueba");
         }
 
 
