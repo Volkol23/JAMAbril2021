@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Orb_Script : MonoBehaviour
 {
+
     public GameObject Player;
     // Start is called before the first frame update
     void Start()
@@ -24,12 +25,12 @@ public class Orb_Script : MonoBehaviour
             
             if (gameObject.tag.Equals("Black"))
             {
-                Player_movment.Black_points++;
+                GameManager.instance.UpdateBlackPoints();
                 Destroy(gameObject);
             }
             if (gameObject.tag.Equals("White"))
             {
-                Player_movment.White_points++;
+                GameManager.instance.UpdateWhitePoints();
                 Destroy(gameObject);
 
             }

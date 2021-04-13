@@ -31,8 +31,7 @@ public class PlatformMovement : MonoBehaviour
         if (horizontal)
         {
             rigidbody.velocity = new Vector2(direction * speed, rigidbody.velocity.y);
-        }
-        else if (vertical)
+        }        else if (vertical)
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, direction * speed);
         }

@@ -5,10 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Player_movment : MonoBehaviour
 {
-
-
-    public static float Black_points;
-    public static float White_points;
     public float ground_distance;
 
     public float Speed;
