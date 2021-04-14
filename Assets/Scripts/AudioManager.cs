@@ -6,11 +6,15 @@ public class AudioManager : MonoBehaviour
 {
     AudioSource[] mysounds;
 
-    private AudioSource damage;
+    private AudioSource clicked;
+    //private AudioSource death;
+
     // Start is called before the first frame update
     void Start()
     {
-        mysounds = GetComponents<AudioSource>();
+        mysounds = GetComponentsInParent<AudioSource>();
+        mysounds[0] = clicked;
+        //mysounds[1] = death;
     }
 
     // Update is called once per frame
@@ -18,4 +22,13 @@ public class AudioManager : MonoBehaviour
     {
         
     }
+    public void PlayClicked()
+    {
+        clicked.Play();
+    }
+    public void PlayDeath()
+    {
+        //death.Play();
+    }
+
 }

@@ -7,6 +7,11 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject menu;
 
+    private AudioManager audioManager;
+    private void Start()
+    {
+        audioManager = GetComponent<AudioManager>();
+    }
     public void ChangeScene(string scene)
     {
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
@@ -16,6 +21,7 @@ public class MainMenu : MonoBehaviour
     public void GoToCilckedButton(GameObject label)
     {
         menu.SetActive(false);
+        audioManager.PlayClicked();
         label.SetActive(true);
     }
 
@@ -29,6 +35,7 @@ public class MainMenu : MonoBehaviour
     public void Back(GameObject label)
     {
         label.SetActive(false);
+        audioManager.PlayClicked();
         menu.SetActive(true);
     }
 }
