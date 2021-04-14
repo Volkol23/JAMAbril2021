@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
     public void GoToCilckedButton(GameObject label)
     {
         menu.SetActive(false);
-        audioManager.PlayClicked();
+        //audioManager.PlayClicked();
         label.SetActive(true);
     }
 
@@ -35,7 +35,7 @@ public class MainMenu : MonoBehaviour
     public void Back(GameObject label)
     {
         label.SetActive(false);
-        audioManager.PlayClicked();
+        //audioManager.PlayClicked();
         menu.SetActive(true);
     }
 }
