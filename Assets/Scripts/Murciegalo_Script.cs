@@ -12,6 +12,7 @@ public class Murciegalo_Script : MonoBehaviour
     private Transform startPos;
     private bool move;
     public Animator animator;
+    public GameObject gamemanager;
 
 
     // Start is called before the first frame update

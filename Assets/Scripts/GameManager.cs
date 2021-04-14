@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public static float Black_points;
     public static float White_points;
+
     public static Vector3 checkpointPos;
     public int maxOrbs;
 
@@ -30,6 +31,7 @@ public class GameManager : MonoBehaviour
     {
         White_points = 0;
         Black_points = 0;
+        
     }
 
     // Update is called once per frame

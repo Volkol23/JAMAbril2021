@@ -9,6 +9,7 @@ public class CheckPoint : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player"))
         {
             collision.GetComponent<PlayerRespawn>().ReachedCheckPoint(transform.position.x, transform.position.y);
+            
         }
     }
 }

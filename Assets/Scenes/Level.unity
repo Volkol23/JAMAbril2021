@@ -298,7 +298,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -452,6 +452,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3321013980269517668, guid: 73219e822fa192b49854c298906c62a7,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 3321013980269517673, guid: 73219e822fa192b49854c298906c62a7,
         type: 3}
       propertyPath: m_Name
@@ -1462,7 +1467,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 140765230}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1804,6 +1809,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3321013980269517668, guid: 73219e822fa192b49854c298906c62a7,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 3321013980269517673, guid: 73219e822fa192b49854c298906c62a7,
         type: 3}
       propertyPath: m_Name
@@ -52183,8 +52193,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237667600}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.770288, y: -0.0034495145, z: -447.18613}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.770288, y: -0.00344944, z: -447.18613}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52810,6 +52820,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52899,12 +52914,12 @@ PrefabInstance:
     - target: {fileID: 2975284322202409114, guid: e568930ce50dc1c41844f81638694a43,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.17
+      value: 37.27
       objectReference: {fileID: 0}
     - target: {fileID: 2975284322202409114, guid: e568930ce50dc1c41844f81638694a43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.04
+      value: 4.83
       objectReference: {fileID: 0}
     - target: {fileID: 2975284322202409114, guid: e568930ce50dc1c41844f81638694a43,
         type: 3}
@@ -53120,6 +53135,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3321013980269517668, guid: 73219e822fa192b49854c298906c62a7,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 3321013980269517673, guid: 73219e822fa192b49854c298906c62a7,
         type: 3}
       propertyPath: m_Name
@@ -53568,6 +53588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -53687,6 +53712,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3321013980269517668, guid: 73219e822fa192b49854c298906c62a7,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 3321013980269517673, guid: 73219e822fa192b49854c298906c62a7,
         type: 3}
       propertyPath: m_Name
@@ -53787,6 +53817,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54005,6 +54040,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54074,6 +54114,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54657,7 +54702,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -54990,6 +55035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55924,7 +55974,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -56872,7 +56922,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 943576453}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -57350,6 +57400,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57461,7 +57516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 484e94ddda045134dac23261762382b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioManager: {fileID: 0}
+  audioManager: {fileID: 237667610}
   pauseMenuUI: {fileID: 860458089}
   finalLevelUI: {fileID: 1606081265}
 --- !u!114 &1025182401
@@ -57667,7 +57722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.39947748, g: 0.4528302, b: 0.010679956, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -57711,8 +57766,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1280, y: 720}
+  m_AnchoredPosition: {x: 0, y: -264.2}
+  m_SizeDelta: {x: 1280, y: 191.56485}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1062190128
 PrefabInstance:
@@ -57977,6 +58032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -58358,7 +58418,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -58563,6 +58623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -58880,7 +58945,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -58954,6 +59019,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -59522,12 +59592,12 @@ PrefabInstance:
     - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.03
+      value: -2.86
       objectReference: {fileID: 0}
     - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.83
+      value: -3.69
       objectReference: {fileID: 0}
     - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
         type: 3}
@@ -59688,6 +59758,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -59763,6 +59838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -60024,7 +60104,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1420790127}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -60125,6 +60205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -98414,6 +98499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -99324,6 +99414,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3321013980269517668, guid: 73219e822fa192b49854c298906c62a7,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 3321013980269517673, guid: 73219e822fa192b49854c298906c62a7,
         type: 3}
       propertyPath: m_Name
@@ -99679,17 +99774,17 @@ PrefabInstance:
     - target: {fileID: 1023127131991322538, guid: c806e71efd4cceb4aa63cc0c4ce9504d,
         type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1023127131991322538, guid: c806e71efd4cceb4aa63cc0c4ce9504d,
         type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1023127131991322538, guid: c806e71efd4cceb4aa63cc0c4ce9504d,
         type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1023127131991322539, guid: c806e71efd4cceb4aa63cc0c4ce9504d,
         type: 3}
@@ -99996,12 +100091,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 197349978}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1738880714 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2122042519}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1739959580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100164,6 +100253,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -100323,7 +100417,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -100391,6 +100485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -100483,12 +100582,12 @@ PrefabInstance:
     - target: {fileID: 8583005370877631274, guid: 033b92e431628e44bac7db3258cfc25b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.99
+      value: -7.51
       objectReference: {fileID: 0}
     - target: {fileID: 8583005370877631274, guid: 033b92e431628e44bac7db3258cfc25b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.13
+      value: -3.09
       objectReference: {fileID: 0}
     - target: {fileID: 8583005370877631274, guid: 033b92e431628e44bac7db3258cfc25b,
         type: 3}
@@ -100638,6 +100737,11 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 1.2872666
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -100941,7 +101045,6 @@ Transform:
   - {fileID: 1021567293}
   - {fileID: 2029795133}
   - {fileID: 851935862}
-  - {fileID: 1738880714}
   m_Father: {fileID: 625413758}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -101249,6 +101352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -101318,6 +101426,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -101469,6 +101582,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6137924
+      objectReference: {fileID: 0}
+    - target: {fileID: 8604901586939750881, guid: 064b1ace0af3c4a4ca618d155b2d152b,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
+    - target: {fileID: 8604901586939750881, guid: 064b1ace0af3c4a4ca618d155b2d152b,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 8604901586939750881, guid: 064b1ace0af3c4a4ca618d155b2d152b,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8604901586939750883, guid: 064b1ace0af3c4a4ca618d155b2d152b,
         type: 3}
@@ -101633,6 +101761,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos 1_Day (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -102476,75 +102609,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 496397346}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2122042519
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1892220673}
-    m_Modifications:
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 41.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.6855469
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 288361340805120811, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2903391690381491793, guid: 2c9a926e158f7c844ae465437dd98e1f,
-        type: 3}
-      propertyPath: m_Name
-      value: CheckPoint (7)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2c9a926e158f7c844ae465437dd98e1f, type: 3}
 --- !u!4 &2128519204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2975284322202409114, guid: e568930ce50dc1c41844f81638694a43,
@@ -102619,6 +102683,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3321013980269517668, guid: 73219e822fa192b49854c298906c62a7,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 3321013980269517673, guid: 73219e822fa192b49854c298906c62a7,
         type: 3}
       propertyPath: m_Name
@@ -102886,6 +102955,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinchos
       objectReference: {fileID: 0}
+    - target: {fileID: 6367306862841585050, guid: 4680240dd8d9238419aa309c93fdbc83,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 77218461dd7da9846b4bd742cc2c175c, type: 2}
     - target: {fileID: 6367306862841585052, guid: 4680240dd8d9238419aa309c93fdbc83,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -22,7 +22,7 @@ public class Pincho_Down : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         collision.gameObject.GetComponent<Player_movment>().Health -= 1;
-        Destroy(gameObject);
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

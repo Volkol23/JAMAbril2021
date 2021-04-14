@@ -7,7 +7,10 @@ public class PlayerRespawn : MonoBehaviour
 
     private float checkPointPositionX, checkPointPositionY;
 
-
+    private void Awake()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 
     void Start()
     {
