@@ -14,16 +14,22 @@ public class ChangeMap : MonoBehaviour
     private Vector3 lightCurrentPos;
     private Vector3 DarkCurrentPos;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        //animator = GetComponent<Animator>();
         lightMap = GameObject.FindGameObjectWithTag("Light");
         darkMap = GameObject.FindGameObjectWithTag("Dark");
+        emptyPos = GameObject.FindGameObjectWithTag("Empty");
         lightCurrentPos = lightMap.transform.position;
         DarkCurrentPos = darkMap.transform.position;
         mapLevel = -1;
         Level = 0;
         SwitchDark();
+    }
+    void Start()
+    {
+        //animator = GetComponent<Animator>();
+       
+        
         //SwitchLight(lightSwitch);
     }
 
@@ -37,6 +43,10 @@ public class ChangeMap : MonoBehaviour
         if (darkMap == null)
         {
             darkMap = GameObject.FindGameObjectWithTag("Dark");
+        }
+        if(emptyPos == null)
+        {
+            emptyPos = GameObject.FindGameObjectWithTag("Empty");
         }
         if (Input.GetKeyDown(KeyCode.E) && mapLevel == -1)
         {

@@ -12,6 +12,7 @@ TagManager:
   - Canvas_Death
   - Light
   - Dark
+  - Empty
   layers:
   - Default
   - TransparentFX
