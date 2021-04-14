@@ -8,8 +8,9 @@ public class GameManager : MonoBehaviour
 
     public static float Black_points;
     public static float White_points;
+    public int maxOrbs;
 
-    private PauseMenu pause;
+    public PauseMenu pause;
 
     private void Awake()
     {
@@ -33,7 +34,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Black_points == 7 && White_points == 7) pause.LevelFinished();
+        if (Black_points == maxOrbs && White_points == maxOrbs) pause.LevelFinished();
     }
 
     public void RssetPoints()
