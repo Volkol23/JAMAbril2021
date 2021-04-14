@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool gameIsPaused = false;
 
+    public AudioManager audioManager;
     public GameObject pauseMenuUI;
     public GameObject finalLevelUI;
     //public GameObject deathResUI;
@@ -30,6 +31,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
+        audioManager.PlayClicked();
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         gameIsPaused = false;
@@ -44,6 +46,7 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMenu()
     {
+        audioManager.PlayClicked();
         string mainMenu = "MainMenu";
         Time.timeScale = 1f;
         SceneManager.LoadScene(mainMenu);
@@ -53,6 +56,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Quit()
     {
+        audioManager.PlayClicked();
         Time.timeScale = 1f;
         gameIsPaused = false;
         Debug.Log("Quit Game");
@@ -61,6 +65,7 @@ public class PauseMenu : MonoBehaviour
 
     public void LevelFinished()
     {
+        //audioManager.Play
         finalLevelUI.SetActive(true);
         Time.timeScale = 0f;
     }

@@ -25,6 +25,7 @@ public class Player_movment : MonoBehaviour
 
     public bool isDead;
 
+    public AudioManager audioManager;
     private bool acceptInputs;
 
     void Start()
@@ -66,6 +67,7 @@ public class Player_movment : MonoBehaviour
 
         if (Health <= 0)
         {
+            audioManager.PlayDeath();
             GameManager.instance.RssetPoints();
             SceneManager.LoadScene("Level");
         }
@@ -75,6 +77,7 @@ public class Player_movment : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
         animator.SetBool("Grounded", in_ground);
     }
+
     private void Jump()
     {
 
@@ -110,6 +113,7 @@ public class Player_movment : MonoBehaviour
     
     public void Hit()
     {
+        audioManager.PlayHit();
         Health -= 1;
         //if (Health <= 0)
         //{

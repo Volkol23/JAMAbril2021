@@ -8,6 +8,7 @@ public class Murciegalo_Script : MonoBehaviour
     Rigidbody2D Rigidbody2D;
     public Transform target;
 
+    public AudioManager audioManager;
     private Transform startPos;
     private bool move;
     public Animator animator;
@@ -41,6 +42,7 @@ public class Murciegalo_Script : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards(transform.position, target.position, step);
         }
+        audioManager.PlayBat();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

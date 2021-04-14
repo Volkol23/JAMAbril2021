@@ -9,6 +9,8 @@ public class Enemy_Script : MonoBehaviour
     Rigidbody2D Rigidbody2D;
     public int Health = 1;
 
+    public AudioManager audioManager;
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,7 @@ public class Enemy_Script : MonoBehaviour
     void Update()
     {
         Rigidbody2D.velocity = new Vector2(Speed, Rigidbody2D.velocity.y);
-
+        audioManager.PlaySpider();
 
 
     }
