@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public static float Black_points;
     public static float White_points;
 
+    private PauseMenu pause;
+
     private void Awake()
     {
         if (instance == null)
@@ -31,7 +33,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Black_points == 7 && White_points == 7) pause.LevelFinished();
     }
 
     public void RssetPoints()
