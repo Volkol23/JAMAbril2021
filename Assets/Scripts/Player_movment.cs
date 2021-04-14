@@ -68,8 +68,11 @@ public class Player_movment : MonoBehaviour
         if (Health <= 0)
         {
             audioManager.PlayDeath();
-            GameManager.instance.RssetPoints();
-            SceneManager.LoadScene("Level");
+            GameManager.instance.GoToCheckpointPos();
+            //GameManager.instance.RssetPoints();
+            //SceneManager.LoadScene("Level");
+            transform.position = GameManager.instance.GetCheckpointPos();
+            Health = 1;
         }
 
 

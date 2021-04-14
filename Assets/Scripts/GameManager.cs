@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public static float Black_points;
     public static float White_points;
+    public static Vector3 checkpointPos;
     public int maxOrbs;
 
     public PauseMenu pause;
@@ -35,8 +36,17 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if (Black_points == maxOrbs && White_points == maxOrbs) pause.LevelFinished();
+
     }
 
+    public Vector3 GetCheckpointPos()
+    {
+        return checkpointPos;
+    }
+    public void GoToCheckpointPos()
+    {
+        checkpointPos = (new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY")));
+    }
     public void RssetPoints()
     {
         Black_points = 0;
