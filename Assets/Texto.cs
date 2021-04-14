@@ -40,7 +40,7 @@ public class Texto : MonoBehaviour
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(15f);
+        yield return new WaitForSeconds(1f);
         texto.gameObject.SetActive(false);
         movement.Move();
         isCalled = true;
