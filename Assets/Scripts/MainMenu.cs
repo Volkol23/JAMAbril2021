@@ -7,10 +7,15 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject menu;
 
-    private AudioManager audioManager;
+    public AudioManager audioManager;
+    private void Awake()
+    {
+        //Debug.Log();
+        //audioManager = GetComponent<AudioManager>();
+    }
     private void Start()
     {
-        audioManager = GetComponent<AudioManager>();
+        
     }
     public void ChangeScene(string scene)
     {
@@ -21,7 +26,7 @@ public class MainMenu : MonoBehaviour
     public void GoToCilckedButton(GameObject label)
     {
         menu.SetActive(false);
-        //audioManager.PlayClicked();
+        audioManager.PlayClicked();
         label.SetActive(true);
     }
 
@@ -35,7 +40,7 @@ public class MainMenu : MonoBehaviour
     public void Back(GameObject label)
     {
         label.SetActive(false);
-        //audioManager.PlayClicked();
+        audioManager.PlayClicked();
         menu.SetActive(true);
     }
 }

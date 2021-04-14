@@ -10,11 +10,17 @@ public class AudioManager : MonoBehaviour
     private AudioSource backgroundMusic;
 
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         mysounds = GetComponentsInParent<AudioSource>();
-        mysounds[0] = clicked;
-        mysounds[1] = backgroundMusic;
+        //mysounds[0] = clicked;
+        //Debug.Log(mysounds[0]);
+        clicked = mysounds[0];
+        backgroundMusic = mysounds[1];
+    }
+    void Start()
+    {
+
     }
 
     // Update is called once per frame

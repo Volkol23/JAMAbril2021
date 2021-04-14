@@ -831,7 +831,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 6716a37ac0a6c7d4f8563bc9e5431b9f,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: cbcf412f28e2a98419e727b478ce9601, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2202,7 +2202,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 6716a37ac0a6c7d4f8563bc9e5431b9f,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: cbcf412f28e2a98419e727b478ce9601, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.652
   m_Pitch: 1
   Loop: 0
@@ -2980,6 +2980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menu: {fileID: 127010274}
+  audioManager: {fileID: 2021380685}
 --- !u!4 &2021380684
 Transform:
   m_ObjectHideFlags: 0
