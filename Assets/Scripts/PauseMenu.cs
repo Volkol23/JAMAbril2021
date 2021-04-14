@@ -8,6 +8,8 @@ public class PauseMenu : MonoBehaviour
     public static bool gameIsPaused = false;
 
     public GameObject pauseMenuUI;
+    public GameObject finalLevelUI;
+    //public GameObject deathResUI;
     //public GameObject finalLevelUI;
 
     // Update is called once per frame
@@ -44,14 +46,13 @@ public class PauseMenu : MonoBehaviour
     {
         string mainMenu = "MainMenu";
         Time.timeScale = 1f;
-        //SceneManager.LoadScene(mainMenu);
+        SceneManager.LoadScene(mainMenu);
         Debug.Log("Go to MainMenu");
         gameIsPaused = false;
     }
 
     public void Quit()
     {
-        //SceneManager.LoadScene("Level1_Desert");
         Time.timeScale = 1f;
         gameIsPaused = false;
         Debug.Log("Quit Game");
@@ -60,14 +61,14 @@ public class PauseMenu : MonoBehaviour
 
     public void LevelFinished()
     {
-        //finalLevelUI.SetActive(true);
+        finalLevelUI.SetActive(true);
         Time.timeScale = 0f;
     }
 
     public void RestartLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Prueba");
+        SceneManager.LoadScene("Level");
         gameIsPaused = false;
     }
 }
