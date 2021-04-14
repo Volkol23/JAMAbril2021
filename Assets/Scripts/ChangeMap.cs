@@ -9,7 +9,7 @@ public class ChangeMap : MonoBehaviour
     [SerializeField] GameObject darkMap;
     [SerializeField] GameObject emptyPos;
 
-    private AudioManager audioManager;
+    public AudioManager audioManager;
     public int mapLevel; // 0 DARK 1 LIGHT
     private int Level;
     private Vector3 lightCurrentPos;
