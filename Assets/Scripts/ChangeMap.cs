@@ -20,6 +20,7 @@ public class ChangeMap : MonoBehaviour
         lightMap = GameObject.FindGameObjectWithTag("Light");
         darkMap = GameObject.FindGameObjectWithTag("Dark");
         emptyPos = GameObject.FindGameObjectWithTag("Empty");
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         lightCurrentPos = lightMap.transform.position;
         DarkCurrentPos = darkMap.transform.position;
         mapLevel = -1;
@@ -37,6 +38,11 @@ public class ChangeMap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(audioManager == null)
+        {
+            audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+
+        }
         if(lightMap == null)
         {
             lightMap = GameObject.FindGameObjectWithTag("Light");

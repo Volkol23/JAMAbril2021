@@ -51286,7 +51286,7 @@ GameObject:
   - component: {fileID: 237667601}
   m_Layer: 0
   m_Name: Manager
-  m_TagString: Untagged
+  m_TagString: AudioManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52454,6 +52454,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 2128519204}
+    - target: {fileID: 3366529031708377481, guid: 1a82e84477cd4184d94a66ed116773b9,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 237667610}
     - target: {fileID: 3366529031708377482, guid: 1a82e84477cd4184d94a66ed116773b9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54272,6 +54277,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1023127131991322549, guid: c806e71efd4cceb4aa63cc0c4ce9504d,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 237667610}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c806e71efd4cceb4aa63cc0c4ce9504d, type: 3}
 --- !u!1001 &573575567
@@ -56318,6 +56328,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1701891951}
+    - target: {fileID: 3366529031708377481, guid: 1a82e84477cd4184d94a66ed116773b9,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 237667610}
     - target: {fileID: 3366529031708377482, guid: 1a82e84477cd4184d94a66ed116773b9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57446,6 +57461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 484e94ddda045134dac23261762382b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
   pauseMenuUI: {fileID: 860458089}
   finalLevelUI: {fileID: 1606081265}
 --- !u!114 &1025182401
@@ -58109,6 +58125,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 2109327196}
+    - target: {fileID: 3366529031708377481, guid: 1a82e84477cd4184d94a66ed116773b9,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 237667610}
     - target: {fileID: 3366529031708377482, guid: 1a82e84477cd4184d94a66ed116773b9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -98677,6 +98698,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1023127131991322549, guid: c806e71efd4cceb4aa63cc0c4ce9504d,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 237667610}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c806e71efd4cceb4aa63cc0c4ce9504d, type: 3}
 --- !u!4 &1568388281 stripped
@@ -99328,6 +99354,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 903109953}
+    - target: {fileID: 3366529031708377481, guid: 1a82e84477cd4184d94a66ed116773b9,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 237667610}
     - target: {fileID: 3366529031708377482, guid: 1a82e84477cd4184d94a66ed116773b9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -99730,6 +99761,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1023127131991322549, guid: c806e71efd4cceb4aa63cc0c4ce9504d,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 237667610}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c806e71efd4cceb4aa63cc0c4ce9504d, type: 3}
 --- !u!4 &1701891951 stripped
@@ -99935,6 +99971,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1023127131991322549, guid: c806e71efd4cceb4aa63cc0c4ce9504d,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 237667610}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c806e71efd4cceb4aa63cc0c4ce9504d, type: 3}
 --- !u!4 &1734508418 stripped
@@ -100434,6 +100475,11 @@ PrefabInstance:
       propertyPath: JumpForce
       value: 300
       objectReference: {fileID: 0}
+    - target: {fileID: 7859748960237598074, guid: 033b92e431628e44bac7db3258cfc25b,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 237667610}
     - target: {fileID: 8583005370877631274, guid: 033b92e431628e44bac7db3258cfc25b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -100538,6 +100584,7 @@ MonoBehaviour:
   lightMap: {fileID: 641578591}
   darkMap: {fileID: 664704895}
   emptyPos: {fileID: 1637183310}
+  audioManager: {fileID: 237667610}
   mapLevel: 0
 --- !u!4 &1794209315
 Transform:
