@@ -9,12 +9,24 @@ public class Texto : MonoBehaviour
     public Text texto;
 
     [SerializeField] Player_movment movement;
+    private static bool isCalled;
     // Start is called before the first frame update
+    private void Awake()
+    {
+        
+    }
     void Start()
     {
         //movement = GetComponent<Player_movment>();
-        StartCoroutine(Reloj());
-        StartCoroutine(Wait());
+        if (!isCalled)
+        {
+            StartCoroutine(Reloj());
+            StartCoroutine(Wait());
+        }
+        else
+        {
+            movement.Move();
+        }
     }
 
     IEnumerator Reloj()
@@ -31,5 +43,6 @@ public class Texto : MonoBehaviour
         yield return new WaitForSeconds(15f);
         texto.gameObject.SetActive(false);
         movement.Move();
+        isCalled = true;
     }
 }
