@@ -8,10 +8,13 @@ public class Texto : MonoBehaviour
     string frase = "En el mundo de la discordia, Pan Ku es el encargado de restablecer el orden. Encuentra los orbes del equilibrio.";
     public Text texto;
 
+    [SerializeField] Player_movment movement;
     // Start is called before the first frame update
     void Start()
     {
+        //movement = GetComponent<Player_movment>();
         StartCoroutine(Reloj());
+        StartCoroutine(Wait());
     }
 
     IEnumerator Reloj()
@@ -21,5 +24,12 @@ public class Texto : MonoBehaviour
             texto.text = texto.text + caracter;
             yield return new WaitForSeconds(0.1f);
         }
+    }
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(15f);
+        texto.gameObject.SetActive(false);
+        movement.Move();
     }
 }

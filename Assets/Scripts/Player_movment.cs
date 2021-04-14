@@ -25,21 +25,23 @@ public class Player_movment : MonoBehaviour
 
     public bool isDead;
 
+    private bool acceptInputs;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        acceptInputs = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        horizontal = Input.GetAxisRaw("Horizontal");
+        if(acceptInputs) horizontal = Input.GetAxisRaw("Horizontal");
 
         //flip body
-        if (horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-        else if (horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+        if (horizontal < 0.0f && acceptInputs) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+        else if (horizontal > 0.0f && acceptInputs) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
 
 
 
@@ -52,12 +54,12 @@ public class Player_movment : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown("space") && in_ground)
+        if (Input.GetKeyDown("space") && in_ground && acceptInputs)
         {
             Jump();
         }
 
-        if (Input.GetKeyDown("r"))
+        if (Input.GetKeyDown("r") && acceptInputs)
         {
             Hit();
         }
@@ -80,7 +82,10 @@ public class Player_movment : MonoBehaviour
 
     }
 
-
+    public void Move()
+    {
+        acceptInputs = true;
+    }
     private void FixedUpdate()
     {
         Rigidbody2D.velocity = new Vector2(horizontal * Speed, Rigidbody2D.velocity.y);
